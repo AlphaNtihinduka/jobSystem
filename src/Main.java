@@ -25,5 +25,16 @@ public class Main {
 
         ArrayList<Person> workers  = new ArrayList<>(List.of(tem, alpha, babu, abdu, huseyin, emma, veronic, mellisa, erica, peter));
 
+        softwareEngineer.hirePerson(tem);
+        softwareEngineer.hirePerson(mellisa);
+        softwareEngineer.hirePerson(abdu);
+        softwareEngineer.hirePerson(huseyin);
+        softwareEngineer.hirePerson(veronic);
+
+        taxiDriver.hirePerson(alpha);
+        taxiDriver.hirePerson(emma);
+        taxiDriver.hirePerson(babu);
+        taxiDriver.hirePerson(erica);
+        taxiDriver.hirePerson(peter);
     }
 }
