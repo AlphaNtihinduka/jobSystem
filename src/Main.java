@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -19,6 +22,8 @@ public class Main {
         Person mellisa = new Person("mellisa", 31, 1500);
         Person erica = new Person("erica", 41, 1500);
         Person peter = new Person("peter", 23, 1500);
+
+        ArrayList<Person> workers  = new ArrayList<>(List.of(tem, alpha, babu, abdu, huseyin, emma, veronic, mellisa, erica, peter));
 
     }
 }
