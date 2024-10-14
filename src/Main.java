@@ -8,5 +8,17 @@ public class Main {
 
         softwareEngineer.printJobDescription();
         taxiDriver.printJobDescription();
+
+        Person tem = new Person("Temesghen", 26, 100);
+        Person alpha = new Person("alpha", 25, 1300);
+        Person babu = new Person("babu", 23, 1400);
+        Person abdu = new Person("abdu", 21, 1600);
+        Person huseyin = new Person("huseyin", 11, 500);
+        Person emma = new Person("emma", 31, 550);
+        Person veronic = new Person("veronic", 11, 1500);
+        Person mellisa = new Person("mellisa", 31, 1500);
+        Person erica = new Person("erica", 41, 1500);
+        Person peter = new Person("peter", 23, 1500);
+
     }
 }
